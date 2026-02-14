@@ -46,14 +46,18 @@ PCILeech supports both hardware based and software based memory acqusition metho
 
 Please find a summary of the supported hardware based memory acquisition methods listed below. All hardware based memory acquisition methods are supported on both Windows and Linux. The FPGA based methods however sports a slight performance penalty on Linux and will max out at approx: 90MB/s compared to 150MB/s on Windows.
 
-| Device                                                                         | Type | Interface | Speed | 64-bit memory access | PCIe TLP access | Project<br>Sponsor |
-| -------------------------------------------------------------------------------| ---- | --------- | ----- | -------------------- | --------------- | ------------------ |
-| [Screamer PCIe Squirrel](https://github.com/ufrisk/pcileech-fpga/tree/master/PCIeSquirrel) | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA) | USB-C | 190MB/s  | Yes | Yes | 💖 |
-| [ZDMA](https://github.com/ufrisk/pcileech-fpga/blob/master/ZDMA)                  | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)   | Thunderbolt3 | 1000MB/s | Yes | Yes | 💖 |
-| [LeetDMA](https://github.com/ufrisk/pcileech-fpga)                                | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB-C | 190MB/s  | Yes | Yes | 💖 |
-| [AC701/FT601](https://github.com/ufrisk/pcileech-fpga/tree/master/ac701_ft601)    | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB3  | 190MB/s  | Yes | Yes |    |
-| USB3380-EVB                                                                       | [USB3380](https://github.com/ufrisk/LeechCore/wiki/Device_USB3380)    | USB3  | 150MB/s  | No  | No  |    |
-| DMA patched HP iLO                                                                | [BMC](https://github.com/ufrisk/LeechCore/wiki/Device_RawTCP)         | TCP   |  1MB/s   | Yes | No  |    |
+| Device                                                                                     | Type | Interface | Speed | 64-bit memory access | PCIe TLP access | Project<br>Sponsor |
+| -------------------------------------------------------------------------------------------| ---- | --------- | ----- | -------------------- | --------------- | ------------------ |
+| [ZDMA](https://github.com/ufrisk/pcileech-fpga-dev/blob/master/ZDMA)                       | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)   | Thunderbolt3 | 1000MB/s | Yes | Yes | 💖 |
+| [GBOX](https://github.com/ufrisk/pcileech-fpga-dev/blob/master/GBOX)                       | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)        | OCuLink |  400MB/s | Yes | Yes | 💖 |
+| [LeetDMA](https://github.com/ufrisk/pcileech-fpga)                                         | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB-C | 190MB/s  | Yes | Yes | 💖 |
+| [CaptainDMA M2](https://github.com/ufrisk/pcileech-fpga)                                   | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB-C | 190MB/s  | Yes | Yes | 💖 |
+| [CaptainDMA 4.1th](https://github.com/ufrisk/pcileech-fpga)                                | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB-C | 190MB/s  | Yes | Yes | 💖 |
+| [CaptainDMA 75T](https://github.com/ufrisk/pcileech-fpga)                                  | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB-C | 200MB/s  | Yes | Yes | 💖 |
+| [CaptainDMA 100T](https://github.com/ufrisk/pcileech-fpga)                                 | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB-C | 220MB/s  | Yes | Yes | 💖 |
+| [AC701/FT601](https://github.com/ufrisk/pcileech-fpga/tree/master/ac701_ft601)             | [FPGA](https://github.com/ufrisk/LeechCore/wiki/Device_FPGA)          | USB3  | 190MB/s  | Yes | Yes |    |
+| USB3380-EVB                                                                                | [USB3380](https://github.com/ufrisk/LeechCore/wiki/Device_USB3380)    | USB3  | 150MB/s  | No  | No  |    |
+| DMA patched HP iLO                                                                         | [BMC](https://github.com/ufrisk/LeechCore/wiki/Device_RawTCP)         | TCP   |  1MB/s   | Yes | No  |    |
 
 ### Software based memory aqusition methods:
 
